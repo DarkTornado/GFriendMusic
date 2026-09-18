@@ -11,6 +11,8 @@ div.header {
     background: linear-gradient(to right, #5F4B8B, #00ABC0);
     font-size: 20px;
     box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.3);
+    position: sticky;
+	top: 0;
 }
 
 div.body {
