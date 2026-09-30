@@ -11,7 +11,7 @@ async function search() {
 
 function searchMusic(data) {
     var input = document.getElementById('input').value.toLowerCase();
-    data = data.replace(/null/g, '(미수록)');
+    data = data.replace(/null/g, '(미수록)').replace(/nil/g, '(없음)').replace(/NA/g, '(미공개)');
     data = data.split('\n');
     var src = '', count = 0;
 
